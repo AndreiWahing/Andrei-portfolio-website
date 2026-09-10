@@ -58,9 +58,8 @@ body {
     margin-top: 35px;
     margin-left: 100px;
     color:white;
-    border: 6px solid rgba(255, 0, 0, 0.181);
     border-radius: 20px;
-    background-color: grey;
+    background-color: #293446;
     background-clip: padding-box;
     padding: 30px;
 }
