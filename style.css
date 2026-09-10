@@ -55,8 +55,14 @@ body {
 }
 
 .hero-text {
+    margin-top: 35px;
     margin-left: 100px;
     color:white;
+    border: 6px solid rgba(255, 0, 0, 0.181);
+    border-radius: 20px;
+    background-color: grey;
+    background-clip: padding-box;
+    padding: 30px;
 }
 
 #profile {
@@ -67,4 +73,9 @@ body {
     object-fit: cover;
     margin-right: 200px;
     margin-top: 50px;
+}
+
+.hero + hr {
+    width: 98%;
+    margin-bottom: 60px;
 }
