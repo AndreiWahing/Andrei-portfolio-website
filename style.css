@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: skyblue;
+    background-color: #7DD3FC;
     color: white;
     padding: 15px 30px;
     position: fixed;
@@ -49,17 +49,20 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 70px;
+    background-color: #1E293B;
+    padding-bottom: 70px;
 }
 
 .hero-text {
     margin-left: 100px;
+    color:white;
 }
 
 #profile {
     width: 300px;
     height: 300px;
     border-radius: 20px;
-    border: 3px solid black;
+    border: 6px solid rgba(255, 0, 0, 0.181);
     object-fit: cover;
     margin-right: 200px;
     margin-top: 50px;    
