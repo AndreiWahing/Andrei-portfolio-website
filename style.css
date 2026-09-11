@@ -75,15 +75,31 @@ body {
     margin-top: 50px;
 }
 
-.hero + hr {
-    width: 98%;
-    margin-bottom: 60px;
-}
-
 .about {
     display: flex;
-    align-items: center;
-    gap: 20px;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 80px;
     background-color: skyblue;
-    padding: 70px;
+    padding: 100px 120px;
+    min-height: 400px;
+}
+
+.about > div {
+    flex: 1;
+    padding: 30px;
+    background-color: #1E293B;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
 }
