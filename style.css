@@ -76,17 +76,33 @@ body {
 }
 
 .about {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    gap: 80px;
     background-color: skyblue;
     padding: 100px 120px;
     min-height: 400px;
 }
 
-.about > div {
+.about-heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.about-heading h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.about-heading p {
+    font-size: 18px;
+}
+
+.about-content {
+    display: flex;
+    gap: 80px;
+}
+
+.about-content > div {
     flex: 1;
+    min-height: 350px;
     padding: 30px;
     background-color: #1E293B;
     color: white;
@@ -94,12 +110,12 @@ body {
     text-align: center;
 }
 
-.about h2 {
+.about-content h2 {
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.about p {
+.about-content p {
     font-size: 18px;
     line-height: 1.6;
 }
