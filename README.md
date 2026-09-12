@@ -1,0 +1,1 @@
+This is a personal website made my yours truly to try and understand front-end development. I'm also planning to improve this website as I learn more things in the future. For now, something like this is enough.
