@@ -119,3 +119,112 @@ body {
     font-size: 18px;
     line-height: 1.6;
 }
+
+.skills {
+    background-color: #1E293B;
+    padding: 80px 120px;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.skills h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.skill-list > div {
+    flex: 1;
+    min-width: 220px;
+    max-width: 300px;
+    background-color: #293446;
+    color: white;
+    border-radius: 15px;
+    border: 3px solid grey;
+    padding: 30px 20px;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.skill-list > div:hover {
+    transform: translateY(-8px);
+    border-color: #7DD3FC;
+}
+
+.skill-list h3 {
+    color: #7DD3FC;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.skill-list p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: whitesmoke;
+}
+
+.education {
+    background-color: #7DD3FC;
+    padding: 100px 120px;
+    min-height: 600px;
+}
+
+.education-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.education-heading h2 {
+    font-size: 40px;
+    margin: 0;
+    color: #1E293B;
+}
+
+.education-heading p {
+    font-size: 18px;
+    color: #293446;
+}
+
+.education-list {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.education-item {
+    background-color: #1E293B;
+    color: white;
+    border: 3px solid grey;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+    border-color: #7DD3FC;
+}
+
+.education-item h3 {
+    color: #7DD3FC;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.education-item h4 {
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.education-item p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 8px 0;
+}
